@@ -21,7 +21,7 @@
             margin: 0 !important;
         }
 
-        @page last-page {
+
             margin: 0;
         }
 
@@ -91,7 +91,6 @@
         }
 
         .last-page {
-            page: last-page;
             page-break-before: always;
         }
 
