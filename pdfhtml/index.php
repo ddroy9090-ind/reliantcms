@@ -21,10 +21,6 @@
             margin: 0 !important;
         }
 
-
-            margin: 0;
-        }
-
         body {
             font-family: "Roboto", sans-serif;
             font-size: 14px;
@@ -251,6 +247,7 @@
 
         </div>
     </div>
+    <div class="page-break"></div>
 
     <!-- DESKTOP RESIDENTIAL VALUATION REPORT -->
     <div class="table-report">
