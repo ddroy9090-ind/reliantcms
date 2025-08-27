@@ -21,7 +21,7 @@
             margin: 0 !important;
         }
 
-        @page :last {
+
             margin: 0;
         }
 
@@ -91,8 +91,6 @@
         }
 
         .last-page {
-            margin: 0;
-            padding: 0;
             page-break-before: always;
         }
 
