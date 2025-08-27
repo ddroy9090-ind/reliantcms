@@ -21,8 +21,8 @@
             margin: 0 !important;
         }
 
-        @page :last {
-            margin: 0 !important;
+        @page last-page {
+            margin: 0;
         }
 
         body {
@@ -87,11 +87,17 @@
             background-size: cover;
             background-position: center;
             position: relative;
+            page-break-after: always;
+        }
+
+        .last-page {
+            page: last-page;
+            page-break-before: always;
         }
 
         .last-page img {
             width: 100%;
-            height: 100vh;
+            height: 297mm;
             object-fit: cover;
             display: block;
             margin: 0;
@@ -246,7 +252,6 @@
 
         </div>
     </div>
-     <div class="page-break"></div>
 
     <!-- DESKTOP RESIDENTIAL VALUATION REPORT -->
     <div class="table-report">
