@@ -21,6 +21,14 @@
             margin: 0 !important;
         }
 
+        @page last-page {
+            /* Remove all margins on the final page to allow a full-bleed image */
+            margin-top: 0;
+            margin-right: 0;
+            margin-bottom: 0;
+            margin-left: 0;
+        }
+
         body {
             font-family: "Roboto", sans-serif;
             font-size: 14px;
@@ -87,7 +95,10 @@
         }
 
         .last-page {
+            page: last-page;
             page-break-before: always;
+            margin: 0;
+            padding: 0;
         }
 
         .last-page img {
